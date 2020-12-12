@@ -21,5 +21,11 @@ public class Main {
         for (Cat cat: cats){
             cat.makeSound();
         }
+
+        cat1.eatMouse();
+        cat1.eatMouse();
+        cat1.eatMouse();
+
+
     }
 }

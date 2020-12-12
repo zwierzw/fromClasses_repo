@@ -1,19 +1,44 @@
 package javaExercises3sda;
 
-import lombok.Getter;
-import lombok.Setter;
-
 public class Cat {
-    @Setter
-    @Getter
+
     private String name;
+    private Integer mouseCounter;
 
 
-    Cat (String name) {
+    Cat(String name) {
+        this.name = name;
+        this.mouseCounter = 0;
+    }
+
+    public Cat(String name, Integer mouseCounter) {
+        this.name = name;
+        this.mouseCounter = mouseCounter;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void makeSound (){
+    public Integer getMouseCounter() {
+        return mouseCounter;
+    }
+
+    public void setMouseCounter(Integer mouseCounter) {
+        this.mouseCounter = mouseCounter;
+    }
+
+    public void makeSound() {
         System.out.println(this.name + " goes meow!!!");
+    }
+
+    public void eatMouse() {
+        this.mouseCounter++;
+        //this.mouseCounter = this.mouseCounter + 1
+        System.out.println("I ate " + this.mouseCounter + " mice!");
     }
 }
