@@ -10,4 +10,11 @@ public class AreaCounter {
         }
         return sumArea;
     }
+
+
+    //TODO Exercise 12
+    public static boolean checkArea (double area, List<Figure> figures) {
+        return true;
+    }
+
 }
