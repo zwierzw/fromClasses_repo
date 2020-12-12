@@ -64,5 +64,10 @@ public class Main {
 
         System.out.println("Exercise 9");
         vet.sayHello(dog1);
+
+        System.out.println("Exercise 10");
+        vet.universalSayHello(cat1);
+        vet.universalSayHello(dog1);
+
     }
 }

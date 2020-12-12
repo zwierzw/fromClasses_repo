@@ -1,28 +1,21 @@
 package javaExercises3sda;
 
-public class Cat implements Animal, Movable{
+public class Cat extends AbstractAnimal implements Animal, Movable{
 
     private String name;
     private Integer mouseCounter;
 
 
     Cat(String name) {
-        this.name = name;
+        super (name);
         this.mouseCounter = 0;
     }
 
     public Cat(String name, Integer mouseCounter) {
-        this.name = name;
+        super (name);
         this.mouseCounter = mouseCounter;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public Integer getMouseCounter() {
         return mouseCounter;
