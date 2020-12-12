@@ -48,5 +48,11 @@ public class Main {
         for (Animal animal: animals){
             animal.makeSound();
         }
+
+        System.out.println("Exercise 6");
+        Car car1 = new Car();
+        car1.move();
     }
+
+
 }
