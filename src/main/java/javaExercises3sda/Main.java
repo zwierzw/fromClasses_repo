@@ -52,7 +52,11 @@ public class Main {
         System.out.println("Exercise 6");
         Car car1 = new Car();
         car1.move();
+
+        System.out.println("Exercise 7");
+        System.out.println(cat1.move());
+        System.out.println(cat1);
+
+
     }
-
-
 }

@@ -1,6 +1,6 @@
 package javaExercises3sda;
 
-public class Cat implements Animal{
+public class Cat implements Animal, Movable{
 
     private String name;
     private Integer mouseCounter;
@@ -41,5 +41,20 @@ public class Cat implements Animal{
         this.mouseCounter++;
         //this.mouseCounter = this.mouseCounter + 1
         System.out.println("I ate " + this.mouseCounter + " mice!");
+    }
+
+    @Override
+    public String move () {
+        System.out.println("Idę!");
+        return "Idę";
+    }
+
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", mouseCounter=" + mouseCounter +
+                '}';
     }
 }
