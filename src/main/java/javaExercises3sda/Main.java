@@ -60,5 +60,9 @@ public class Main {
         System.out.println("Exercise 8");
         Vet vet = new Vet();
         vet.sayHello(cat2);
+
+
+        System.out.println("Exercise 9");
+        vet.sayHello(dog1);
     }
 }

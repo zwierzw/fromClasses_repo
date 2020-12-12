@@ -13,4 +13,8 @@ public class Dog implements Animal {
         System.out.println(this.name + " woff woff!");
     }
 
+
+    public String getName() {
+        return this.name;
+    }
 }
