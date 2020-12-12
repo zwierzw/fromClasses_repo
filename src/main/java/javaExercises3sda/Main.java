@@ -57,6 +57,8 @@ public class Main {
         System.out.println(cat1.move());
         System.out.println(cat1);
 
-
+        System.out.println("Exercise 8");
+        Vet vet = new Vet();
+        vet.sayHello(cat2);
     }
 }
