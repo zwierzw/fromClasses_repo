@@ -12,7 +12,7 @@ public class AreaCounter {
     }
 
 
-    //TODO Exercise 12
+    //TODO Exercise 13
     public static boolean checkArea (double area, List<Figure> figures) {
         return true;
     }
