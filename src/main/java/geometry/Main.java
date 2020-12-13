@@ -24,8 +24,9 @@ public class Main {
         System.out.println(result);
 
 
-
-
+        double area = 50.0;
+        boolean isEnough = AreaCounter.checkArea(area, figures);
+        System.out.println("Feedback if the amount of paint is enough: " + isEnough);
 
     }
 
